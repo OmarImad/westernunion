@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>WesternUnion</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+  <header class="container-fluid">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid py-1">
+        <a class="navbar-brand" id="navbar-brand" href="#">WesternUnion \\ WU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-md-auto gap-2">
+            <li class="nav-item rounded">
+              <a class="nav-link active" aria-current="page" href="#">Send money</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#">Track transfer</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#">Find locations</a>
+            </li>
+            <li class="nav-item rounded">
+              <a class="nav-link" href="#">My WU</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+<form id="form">
+  <div class="col-11 col-md-8 col-lg-6 m-auto">
+    <h3 class="my-3">Track a Transfer</h3>
+    <div class="d-flex">
+      <div id="receiver" class="box border_b d-flex justify-content-center align-items-center w-50 mx-1 mx-sm-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mx-2 bi bi-upload" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+        </svg>
+        <p class="m-0">I'm the receiver</p>
+      </div>
+      <div id="send" class="box d-flex justify-content-center align-items-center w-50 mx-1 mx-sm-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#81B6D4" class="mx-2 bi bi-download" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+        </svg>
+        <p class="m-0">I'm the sender</p>
+      </div>
+    </div>
+    <div id="box-receiver" class="box my-4 col-11 col-md-11 m-auto">
+      <input name="in1" type="number"> 
+      <p class="prag m-0 my-2">
+        Your tracking number (MTCN) can be found in your transfer history page and in your printed or emailed receipt.				
+      </p>
+      <button type="submit" class="btn mt-3 mt-md-5 btn-c">
+        Continue
+      </button>
+    </div>
+    <div id="box-send" class="box my-4 col-11 col-md-11 m-auto">
+      <input name="in2" type="number"> 
+      <p class="prag m-0 my-2">
+        Your tracking number (MTCN) can be found in your transfer history page and in your printed or emailed receipt.				
+      </p>
+      <button  type="submit" class="btn mt-3 mt-md-5 btn-c">
+        Continue
+      </button>
+    </div>
+  </form>
+    <h6 class="prag text-center mb-3">Don't know the MTCN?</h6>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="prag p-3">Home | About us | Contact us | Customer support | Fraud awareness | Report a security bug | Investor relations | Careers | Western Union Foundation | News | Payment solutions | Intelectual property | Terms and conditions |
+         Privacy Statement | Cookie Information | Company information | General Assembly meetings</p>
+      <div class="d-flex justify-content-between flex-wrap">
+        <div>
+          <p class="footer-text">Send money to Russia | Send money to Germany | Send money to Georgia | Send money to Uzbekistan</p>
+          <p class="footer-text">© 2021 Western Union Holdings, Inc. All Rights Reserved</p>
+        </div>
+        <div>
+          <p class="follow text-center">
+            Follow us on
+          </p>
+          <div>
+            <a href="#" class="mx-2">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="mx-2">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#" class="mx-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="mx-2">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
